@@ -12,23 +12,18 @@ a {
   text-decoration: none;
 }
 
-.header-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
-}
-
-.logo-design {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.header-logo-design {
+  color: #2e2f42;
 }
 
 .navigation-list-link {
@@ -44,13 +39,16 @@ a {
   color: #404bbf;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts-list-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
 .contacts-list-link:hover,
@@ -66,7 +64,7 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
 }
@@ -86,16 +84,17 @@ a {
   background: #404bbf;
 }
 
-h2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize
 }
 
-h3 {
+.list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -105,9 +104,10 @@ h3 {
 
 .our-team-list-item {
   text-align: center;
+  background-color: #FFFFFF
 }
 
-p {
+.text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -121,12 +121,7 @@ p {
   background: #2e2f42;
 }
 
-.footer-logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer-logo-design {
   color: #f4f4fd;
 }
 
