@@ -52,7 +52,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
   margin-bottom: 8px;
 }
 
@@ -69,6 +68,7 @@ img {
 
 .header-content {
   display: flex;
+  justify-content: space-between;
 }
 
 .nav-container {
@@ -139,6 +139,12 @@ img {
   padding: 188px 0;
 }
 
+.hero-div-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -146,6 +152,7 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -161,6 +168,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
@@ -212,11 +220,17 @@ img {
   justify-content: center;
 }
 
+.our-team-list-title {
+  text-align: center;
+}
+
 .our-team-list-item {
   text-align: center;
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .our-team-list-item-wrapper {
