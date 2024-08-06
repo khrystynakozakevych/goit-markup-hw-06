@@ -200,10 +200,6 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.features-list-title {
-  margin-bottom: 8px;
-}
-
 /* our team */
 .our-team-content {
   background: #f4f4fd;
@@ -212,7 +208,7 @@ img {
 
 .our-team-list {
   display: flex;
-  gap: 24;
+  gap: 24px;
   justify-content: center;
 }
 
