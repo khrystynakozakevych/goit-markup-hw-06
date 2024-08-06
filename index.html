@@ -18,20 +18,22 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div class="container header">
-        <nav>
+    <header class="header-divider">
+      <div class="container header-content">
+        <nav class="nav-container">
           <a href="./index.html" class="logo"
             >Web<span class="header-logo-design">Studio</span></a
           >
-          <ul class="navigation-list">
+          <ul class="nav-list">
             <li>
-              <a class="navigation-list-link" href="./index.html">Studio</a>
+              <a class="nav-list-link" href="./index.html">Studio</a>
             </li>
             <li>
-              <a class="navigation-list-link" href="">Portfolio</a>
+              <a class="nav-list-link" href="">Portfolio</a>
             </li>
-            <li><a class="navigation-list-link" href="">Contacts</a></li>
+            <li>
+              <a class="nav-list-link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="contacts">
@@ -53,40 +55,40 @@
     <!-- Main contant -->
     <main>
       <!-- Hero -->
-      <section class="hero">
+      <section class="hero-content">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
-      <!-- Description of advantages -->
-      <section>
-        <div class="container advg">
-          <h2 class="section-title visually-hidden">Advantages</h2>
-          <ul class="advg-list">
-            <li class="advg-list-item">
-              <h3 class="advg-list-title">Strategy</h3>
+      <!-- Features -->
+      <section class="features-content">
+        <div class="container">
+          <h2 class="section-title visually-hidden">Features</h2>
+          <ul class="features-list">
+            <li class="features-list-item">
+              <h3 class="list-title">Strategy</h3>
               <p class="text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="advg-list-item">
-              <h3 class="advg-list-title">Punctuality</h3>
+            <li class="features-list-item">
+              <h3 class="list-title">Punctuality</h3>
               <p class="text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="advg-list-item">
-              <h3 class="advg-list-title">Diligence</h3>
+            <li class="features-list-item">
+              <h3 class="list-title features-list-title">Diligence</h3>
               <p class="text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="advg-list-item">
-              <h3 class="advg-list-title">Technologies</h3>
+            <li class="features-list-item">
+              <h3 class="list-title">Technologies</h3>
               <p class="text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -96,7 +98,7 @@
         </div>
       </section>
       <!-- Our team -->
-      <section class="our-team-wrapper">
+      <section class="our-team-content">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="our-team-list">
@@ -106,8 +108,10 @@
                 alt="photo of product designer, male"
                 width="264"
               />
-              <h3 class="list-title">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
+              <div class="our-team-list-item-wrapper">
+                <h3 class="list-title">Mark Guerrero</h3>
+                <p class="our-team-text">Product Designer</p>
+              </div>
             </li>
             <li class="our-team-list-item">
               <img
@@ -115,8 +119,10 @@
                 alt="photo of frontend developer, male"
                 width="264"
               />
-              <h3 class="list-title">Tom Ford</h3>
-              <p class="text">Frontend Developer</p>
+              <div class="our-team-list-item-wrapper">
+                <h3 class="list-title">Tom Ford</h3>
+                <p class="our-team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="our-team-list-item">
               <img
@@ -124,8 +130,10 @@
                 alt="photo of marketing, female"
                 width="264"
               />
-              <h3 class="list-title">Camila Garcia</h3>
-              <p class="text">Marketing</p>
+              <div class="our-team-list-item-wrapper">
+                <h3 class="list-title">Camila Garcia</h3>
+                <p class="our-team-text">Marketing</p>
+              </div>
             </li>
             <li class="our-team-list-item">
               <img
@@ -133,15 +141,17 @@
                 alt="photo of ui designer, male"
                 width="264"
               />
-              <h3 class="list-title">Daniel Wilson</h3>
-              <p class="text">UI Designer</p>
+              <div class="our-team-list-item-wrapper">
+                <h3 class="list-title">Daniel Wilson</h3>
+                <p class="our-team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <!-- Our Portfolio -->
-      <section>
-        <div class="container our-portfolio">
+      <section class="our-portfolio-content">
+        <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="our-portfolio-list">
             <li class="our-portfolio-list-item">
@@ -150,8 +160,10 @@
                 alt="interface of banking app"
                 width="360"
               />
-              <h3 class="list-title">Banking App</h3>
-              <p class="text">App</p>
+              <div class="our-portfolio-list-item-wrapper">
+                <h3 class="list-title">Banking App</h3>
+                <p class="text">App</p>
+              </div>
             </li>
             <li class="our-portfolio-list-item">
               <img
@@ -159,8 +171,10 @@
                 alt="visualisation of a chashless payment using a qr code on a cellphone"
                 width="360"
               />
-              <h3 class="list-title">Cashless Payment</h3>
-              <p class="text">Marketing</p>
+              <div class="our-portfolio-list-item-wrapper">
+                <h3 class="list-title">Cashless Payment</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li class="our-portfolio-list-item">
               <img
@@ -168,8 +182,10 @@
                 alt="a laptop and a cellphone with the interface of the meditation app on"
                 width="360"
               />
-              <h3 class="list-title">Meditation App</h3>
-              <p class="text">App</p>
+              <div class="our-portfolio-list-item-wrapper">
+                <h3 class="list-title">Meditation App</h3>
+                <p class="text">App</p>
+              </div>
             </li>
             <li class="our-portfolio-list-item">
               <img
@@ -177,8 +193,10 @@
                 alt="a fragment of the car dashbord and a person's hands on the steering wheel"
                 width="360"
               />
-              <h3 class="list-title">Taxi Service</h3>
-              <p class="text">Marketing</p>
+              <div class="our-portfolio-list-item-wrapper">
+                <h3 class="list-title">Taxi Service</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li class="our-portfolio-list-item">
               <img
@@ -186,8 +204,10 @@
                 alt="a cellphone and four different screen illustrations next to it, night landscapes with the big moon"
                 width="360"
               />
-              <h3 class="list-title">Screen Illustrations</h3>
-              <p class="text">Design</p>
+              <div class="our-portfolio-list-item-wrapper">
+                <h3 class="list-title">Screen Illustrations</h3>
+                <p class="text">Design</p>
+              </div>
             </li>
             <li class="our-portfolio-list-item">
               <img
@@ -195,8 +215,10 @@
                 alt="a smiling girl with earphones and a cellphone in her hands"
                 width="360"
               />
-              <h3 class="list-title">Online Courses</h3>
-              <p class="text">Marketing</p>
+              <div class="our-portfolio-list-item-wrapper">
+                <h3 class="list-title">Online Courses</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -205,7 +227,7 @@
     <!-- Footer -->
     <footer class="footer-wrapper">
       <div class="container">
-        <a href="./index.html" class="logo"
+        <a href="./index.html" class="logo footer-logo"
           >Web<span class="footer-logo-design">Studio</span></a
         >
         <p class="text footer-text">
