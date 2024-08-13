@@ -415,6 +415,10 @@ img {
   align-items: baseline;
 }
 
+.footer-logo-text {
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -422,7 +426,6 @@ img {
 
 .footer-logo-design {
   color: #f4f4fd;
-  margin-right: 120px;
 }
 
 .footer-text {
@@ -446,7 +449,7 @@ img {
   margin-bottom: 16px;
 }
 
-.social-link.footer-link {
+.footer-links-list {
   gap: 16px;
 }
 
