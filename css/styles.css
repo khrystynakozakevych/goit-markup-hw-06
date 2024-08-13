@@ -78,15 +78,19 @@ img {
   margin-top: 8px;
 }
 
+.social-links-list-item {
+  width: 40px;
+  height: 40px;
+}
+
 .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
-  color: white;
 
   transition-property: background-color;
   transition-duration: 250ms;
@@ -94,7 +98,7 @@ img {
 }
 
 .icon {
-  fill: currentColor;
+  fill: #f4f4fd;
 }
 
 .social-link:hover,
@@ -333,7 +337,7 @@ img {
 }
 
 .our-team-list-item-wrapper {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .our-team-text {
@@ -395,7 +399,7 @@ img {
 
 .our-portfolio-list-item:hover .our-portfolio-overlay,
 .our-portfolio-list-item:focus .our-portfolio-overlay {
-  transform: translatey(0);
+  transform: translatey(0%);
 }
 
 .overlay-text {
