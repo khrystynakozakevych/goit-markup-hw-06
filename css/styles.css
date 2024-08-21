@@ -651,7 +651,7 @@ img {
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
+  outline: transparent;
   background-color: transparent;
 }
 
@@ -702,6 +702,10 @@ img {
   border-color: #4d5ae5;
 }
 
+.form-wrapper-textarea {
+  margin-bottom: 16px;
+}
+
 .privacy-wraper {
   margin-bottom: 24px;
 }
@@ -733,7 +737,7 @@ img {
   align-items: center;
   margin-right: 8px;
 
-  transition-property: border-color, border, fill;
+  transition-property: background-color, border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -761,7 +765,7 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
 
-  transition-property: border-color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
