@@ -531,33 +531,34 @@
             </li>
           </ul>
         </div>
-        <form class="subscribe-form">
-          <div class="subscribe-container">
-            <label class="footer-container-title" for="email">
+        <div class="subscribtion-container">
+          <p class="footer-container-title">Subscribe</p>
+          <form class="subscribe-form">
+            <div class="subscribe-container">
+              <label class="footer-container-label">
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="E-mail"
+                  class="email-input"
+                />
+              </label>
+            </div>
+            <button class="subscribe-button" type="submit">
               Subscribe
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="user_email"
-              placeholder="E-mail"
-              class="email-input"
-            />
-          </div>
-          <button class="subscribe-button" type="submit">
-            Subscribe
-            <svg class="icon" height="24" width="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+              <svg class="icon" height="24" width="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Modal overlay -->
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
         <button type="button" class="close-button">
-          <svg width="8" height="8">
+          <svg width="8" height="8" class="close-button-icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
