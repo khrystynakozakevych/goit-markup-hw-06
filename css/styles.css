@@ -430,7 +430,7 @@ img {
 
 .footer-text {
   color: #f4f4fd;
-  max-width: 264px;
+  width: 264px;
 }
 
 .footer-container-social-links {
@@ -461,15 +461,6 @@ img {
 
 .subscribe-form {
   display: flex;
-  align-items: flex-end;
-}
-
-.subscribe-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-container-label {
   gap: 24px;
 }
 
@@ -495,7 +486,6 @@ img {
 .subscribe-button {
   display: flex;
   align-items: center;
-  align-content: flex-end;
   justify-content: center;
   flex-direction: row;
   gap: 16px;
@@ -504,7 +494,7 @@ img {
   padding: 8px 24px;
   min-width: 165px;
   height: 40px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -521,6 +511,10 @@ img {
 .subscribe-button:hover,
 .subscribe-button:focus {
   background-color: #404bbf;
+}
+
+.subscribe-icon {
+  margin-left: 16px;
 }
 
 /* modal overlay */
